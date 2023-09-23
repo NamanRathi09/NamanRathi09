@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&display=swap');
+*{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Indie Flower', cursive;
+}
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.png');
+    background-size: cover;
+    max-height: fit-content;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.portfolio{
+    text-align: center;
+    height: 600px;
+    width: 500px;
+    background-color: red;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+head{
+    font-size: 100px;
+}
+.fade-in {
+    opacity: 0; /* Set initial opacity to 0 (invisible) */
+    animation: fadeIn 1.0s ease-in-out forwards; /* Apply the fadeIn animation */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img{
+    height: 200px;
+    width: 200px
+}
